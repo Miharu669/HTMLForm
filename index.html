@@ -6,7 +6,41 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="">Mi Formulario</form>
+    <form action="">Mi Formulario
+       <p><label for="name">Name: </label>
+        <input type="text" placeholder="Introduce nombre" ></p>
+        <p><label for="email">E-mail: </label>
+        <input type="email" placeholder="Introduce email" ></p>
+        <p><label for="Age">Age: </label>
+        <input type="age" placeholder="Introduce edad" ></p>
+            <label> Which best option describes you?
+              <select id="dropdown">
+                <option value="">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </label>
+        <p><label> Would you recommend this site?</label>
+        <p><label><input type="radio" class="inline" name="attribute" value="1" checked /> Yes </label></p>
+        <p><label><input type="radio" class="inline" name="attribute" value="3" /> No </label></p>
+        <p><label><input type="radio" class="inline" name="attribute" value="3" /> Maybe </label></p>
+        <p> <label> Language and Frameworks known:</label></p>
+           <p><label><input type="checkbox" class="inline" value="C" /> C </label></p>
+            <p><label><input type="checkbox" class="inline" value="C++" /> C++ </label></p>
+            <p><label><input type="checkbox" class="inline" value="C#" /> C# </label></p>
+            <p><label><input type="checkbox" class="inline" value="Java" /> Java </label></p>
+            <p><label><input type="checkbox" class="inline" value="Python" /> Python </label></p>
+            <p><label><input type="checkbox" class="inline" value="Javascript" /> Javascript </label></p>
+            <p><label><input type="checkbox" class="inline" value="React" /> React </label></p>
+            <p><label><input type="checkbox" class="inline" value="Angular" /> Angular </label></p>
+            <p><label><input type="checkbox" class="inline" value="Django" />Django </label></p>
+            <p><label><input type="checkbox" class="inline" value="Spring" /> Spring </label></p>
+            <p><label><input type="checkbox" class="inline" value="otros" /> Otros </label></p>
+        </p>
+        <button> Submit </button>
+    </form>
     
 </body>
 </html>
