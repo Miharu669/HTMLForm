@@ -1,0 +1,100 @@
+body {
+    background-image: url(https://lh4.googleusercontent.com/-W3SAFGjJH4g/Ud_CS-KUKVI/AAAAAAAAATY/lI9OfRrQzZI/w1595-h897-no/fondo+de+pantalla+de+paraiso+de+agua+16.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: rgb(245, 255, 250);
+    font-family: Perpetua;
+    font-size: 24px;
+  }
+  
+  head, h1   {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  
+  
+  
+  form {
+    background-color: rgba(0, 80, 100, 0.9);
+    color: rgb(245, 255, 250);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    width: 60vw;
+    max-width: 700px;
+    min-width: 350px;
+    margin: 0 auto;
+    padding: 15px 15px 25px 15px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    margin: 0.1em 0 1em 0;
+    min-height: 2em;
+    font-size: 0.67em;
+  }
+  
+  input,
+  select,
+   textarea {
+    border-radius: 5px;}
+  
+  textarea {
+    min-height: 6.33em;
+    resize: vertical
+  }
+  
+  
+  input[type="name"]:focus,
+  input[type="email"]:focus,
+  input[type="age"]:focus,
+  select:focus {
+    outline: none !important;
+    box-shadow: 0 0 7px rgb(0, 255, 255);
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    min-height: unset;
+    vertical-align: middle;
+  }
+
+  button {
+    width: 100%;
+    border: none;
+    background-color: rgb(5, 134, 255);
+    color: rgb(253, 253, 253);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #fffb04; 
+  }

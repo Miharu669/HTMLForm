@@ -3,44 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
     <title>Formulario</title>
 </head>
 <body>
-    <form action="">Mi Formulario
-       <p><label for="name">Name: </label>
-        <input type="text" placeholder="Introduce nombre" ></p>
-        <p><label for="email">E-mail: </label>
-        <input type="email" placeholder="Introduce email" ></p>
-        <p><label for="Age">Age: </label>
-        <input type="age" placeholder="Introduce edad" ></p>
-            <label> Which best option describes you?
+    <h1 id="title">Formulario</h1>
+    <form action="">
+    <fieldset><label for="name">Name: </label>
+        <input type="text" placeholder="Introduce nombre" ></section>
+    <section><label for="email">E-mail: </label>
+        <input type="email" placeholder="Introduce email" ></section>
+    <section> <label for="Age">Age: </label>
+        <input type="age" placeholder="Introduce edad" ></section>
+    <section><label> Which best option describes you?
               <select id="dropdown">
                 <option value="">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
-              </select>
-            </label>
-        <p><label> Would you recommend this site?</label>
-        <p><label><input type="radio" class="inline" name="attribute" value="1" checked /> Yes </label></p>
-        <p><label><input type="radio" class="inline" name="attribute" value="3" /> No </label></p>
-        <p><label><input type="radio" class="inline" name="attribute" value="3" /> Maybe </label></p>
-        <p> <label> Language and Frameworks known:</label></p>
-           <p><label><input type="checkbox" class="inline" value="C" /> C </label></p>
-            <p><label><input type="checkbox" class="inline" value="C++" /> C++ </label></p>
-            <p><label><input type="checkbox" class="inline" value="C#" /> C# </label></p>
-            <p><label><input type="checkbox" class="inline" value="Java" /> Java </label></p>
-            <p><label><input type="checkbox" class="inline" value="Python" /> Python </label></p>
-            <p><label><input type="checkbox" class="inline" value="Javascript" /> Javascript </label></p>
-            <p><label><input type="checkbox" class="inline" value="React" /> React </label></p>
-            <p><label><input type="checkbox" class="inline" value="Angular" /> Angular </label></p>
-            <p><label><input type="checkbox" class="inline" value="Django" />Django </label></p>
-            <p><label><input type="checkbox" class="inline" value="Spring" /> Spring </label></p>
-            <p><label><input type="checkbox" class="inline" value="otros" /> Otros </label></p>
-        </p>
-        <button> Submit </button>
+             </select></label></section></fieldset>
+       <fieldset><section><label> Would you recommend this site?</label>
+        <label><input type="radio" class="inline" name="attribute" value="1" checked /> Yes </label>
+        <label><input type="radio" class="inline" name="attribute" value="3" /> No </label>
+        <label><input type="radio" class="inline" name="attribute" value="3" /> Maybe </label></section></fieldset>
+
+        <fieldset><section><p> <label> Language and Frameworks known:</label>
+           <label><input type="checkbox" class="inline" value="C" /> C </label>
+            <label><input type="checkbox" class="inline" value="C++" /> C++ </label>
+            <label><input type="checkbox" class="inline" value="C#" /> C# </label>
+            <label><input type="checkbox" class="inline" value="Java" /> Java </label>
+            <label><input type="checkbox" class="inline" value="Python" /> Python </label>
+            <label><input type="checkbox" class="inline" value="Javascript" /> Javascript </label>
+            <label><input type="checkbox" class="inline" value="React" /> React </label>
+            <label><input type="checkbox" class="inline" value="Angular" /> Angular </label>
+            <label><input type="checkbox" class="inline" value="Django" />Django </label>
+            <label><input type="checkbox" class="inline" value="Spring" /> Spring </label>
+            <label><input type="checkbox" class="inline" value="otros" /> Otros </label></section></fieldset>
+        
+        <fieldset><section>
+            <p>Any comments or suggestions</p>
+            <textarea id ="bio" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+        </section></fieldset>
+    <fieldset><button type="button1"> Submit </button></fieldset>
+        
     </form>
     
 </body>
+<footer>
+    <p>Vero Doel</p>
+    
+</footer>
 </html>
